@@ -122,29 +122,9 @@ UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version 2>/dev/
 # a nightly build:                 GRF's Name nightly-r51
 # a release build (taged version): GRF's Name 0.1
 ################################################################
-# This must be conditional declarations, or building from the tar.gz won't work anymore
-DEFAULT_BRANCH_NAME ?=
-
-# HG revision
-REPO_REVISION  ?= $(shell $(HG) id -n | cut -d+ -f1)
-
-# Whether there are local changes
-REPO_MODIFIED  ?= $(shell [ "`$(HG) id | cut -c13`" = "+" ] && echo "M" || echo "")
-
-# Branch name
-REPO_BRANCH    ?= $(shell $(HG) id -b | sed "s/default/$(DEFAULT_BRANCH_NAME)/")
-
-# Any tag which is not 'tip'
-REPO_TAGS      ?= $(shell $(HG) id -t | grep -v "tip")
-
-# Filename addition, if we're not building the default branch
-REPO_BRANCH_STRING ?= $(shell if [ "$(REPO_BRANCH)" = "$(DEFAULT_BRANCH_NAME)" ]; then echo ""; else echo "$(REPO_BRANCH)-"; fi)
-
-# The shown version is either a tag, or in the absence of a tag the revision.
-REPO_VERSION_STRING ?= $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo $(REPO_BRANCH_STRING)r$(REPO_REVISION)$(REPO_MODIFIED))
 
 # The title consists of name and version
-REPO_TITLE     ?= $(REPO_NAME) $(REPO_VERSION_STRING)
+REPO_TITLE     ?= $(REPO_NAME) $(REPO_REVISION)
 
 # Remove the @ when you want a more verbose output.
 _V ?= @
