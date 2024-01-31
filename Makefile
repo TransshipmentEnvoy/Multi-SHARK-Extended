@@ -24,9 +24,6 @@ REPO_NAME           ?= My NewGRF
 # This is the filename part common to the grf file, main source file and the tar name
 BASE_FILENAME       ?= mynewgrf
 
-# Documentation files
-DOC_FILES ?= docs/readme.txt docs/license.txt docs/changelog.txt
-
 # Directory structure
 SCRIPT_DIR          ?= build-common
 

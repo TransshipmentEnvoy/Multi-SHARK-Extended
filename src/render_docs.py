@@ -144,7 +144,7 @@ def render_docs(doc_list, file_type, use_markdown=False):
 def main():
     # render standard docs from a list
     html_docs = ['ships', 'code_reference', 'get_started', 'translations']
-    txt_docs = ['license', 'readme']
+    txt_docs = ['license']
     markdown_docs = ['changelog']
 
     render_docs(html_docs, 'html')
