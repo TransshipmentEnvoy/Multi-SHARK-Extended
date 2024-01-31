@@ -1,4 +1,4 @@
-STR_GRF_NAME                                                    :SHARK 1.0
+STR_GRF_NAME                                                    :Multi-SHARK
 
 <!--! ship names -->
 <tal:build_vehicle_names repeat="ship ships">

@@ -16,7 +16,7 @@ fish-nml:
 	$(_V) python3 src/build_fish.py '${REPO_TITLE}' '${REPO_REVISION}' '${ic}' '${pw}' '${roster}'
 
 clean::
-	$(_V)-rm fish.nml
+	$(_V)-rm multi-shark.nml
 	$(_V)-rm -r docs
 	$(_V)-rm -r chameleon_cache
 	$(_V)-rm -r generated
