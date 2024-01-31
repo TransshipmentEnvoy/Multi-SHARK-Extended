@@ -5,6 +5,8 @@ ship = GeneralCargoVessel(id = 'schipbeek_freight_barge',
             numeric_id = 2140,
             title = 'Schipbeek [Freight Barge]',
             capacity_cargo_holds = 560,
+            extra_parts = 1,
+            refit_part_name = 'fore_aft_holds',
             replacement_id = '-none',
             buy_cost = 27,
             fixed_run_cost_factor = 4.0,
@@ -29,11 +31,11 @@ ship.add_model_variant(intro_date=0,
 ship.add_model_variant(intro_date=1950,
                        end_date=global_constants.max_game_date,
                        spritesheet_suffix=1)
-                       
+
 ship.add_model_variant(intro_date=1950,
                        end_date=global_constants.max_game_date,
                        spritesheet_suffix=2)
-                       
+
 ship.add_model_variant(intro_date=1960,
                        end_date=global_constants.max_game_date,
                        spritesheet_suffix=3)

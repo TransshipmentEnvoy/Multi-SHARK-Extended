@@ -84,3 +84,20 @@ STR_QUANTITY_FOOD                                               : tonnes of refr
 STR_QUANTITY_LIVESTOCK                                          : items of livestock
 STR_UNIT_TONNES                                                 : tonnes
 STR_UNIT_ITEMS                                                  : items
+
+STR_FORE_HOLD                                                   :Fore hold
+STR_MID_HOLD                                                    :Mid hold
+STR_AFT_HOLD                                                    :Aft hold
+
+STR_FIRST_BARGE                                                 :First barge
+STR_SECOND_BARGE                                                :Second barge
+
+STR_TANK_1                                                      :Tank 1
+STR_TANK_2                                                      :Tank 2
+STR_TANK_3                                                      :Tank 3
+STR_TANK_4                                                      :Tank 4
+
+STR_SECTION_1                                                   :Section 1
+STR_SECTION_2                                                   :Section 2
+STR_SECTION_3                                                   :Section 3
+STR_SECTION_4                                                   :Section 4
