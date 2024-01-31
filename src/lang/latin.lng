@@ -14,8 +14,6 @@ STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Velocitates nav
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Sicut herba crescens
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Idoneae
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_2                           :Nimiae
-STR_PARAM_ROSTER                                                :Vehicula adhibenda
-STR_PARAM_ROSTER_DESC                                           :Eligere vehicula adhibenda.
 
 STR_NAME_SUFFIX_BARGE_TUG                                       :Scapha Pontonium Tractoria
 STR_NAME_SUFFIX_CATAMARAN                                       :Catamaran

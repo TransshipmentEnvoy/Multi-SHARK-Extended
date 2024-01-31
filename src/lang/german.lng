@@ -13,8 +13,6 @@ STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Geschwindigkeit
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Mögen der Farbe beim Trocknen zugucken
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Ideal
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_2                           :Cheating
-STR_PARAM_ROSTER_DESC                                           :Lege die Auswahl der Schiffe fest.
-STR_PARAM_ROSTER_OPTION_1                                       :Die blaue Donau
 
 STR_NAME_SUFFIX_BARGE_TUG                                       :Schleppkahn
 STR_NAME_SUFFIX_CATAMARAN                                       :{G=m}Katermaran

@@ -13,10 +13,6 @@ STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Skip Spoed
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Baie Stadig
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Ideaal
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_2                           :Verneuk
-STR_PARAM_ROSTER                                                :Rooster
-STR_PARAM_ROSTER_DESC                                           :Kies watter stel skepe om te gebruik.
-STR_PARAM_ROSTER_OPTION_0                                       :Die 'Sceptered' Eiland
-STR_PARAM_ROSTER_OPTION_1                                       :Die Blou Danube
 
 STR_NAME_SUFFIX_BARGE_TUG                                       :Skip Sloep
 STR_NAME_SUFFIX_CATAMARAN                                       :Katamaran

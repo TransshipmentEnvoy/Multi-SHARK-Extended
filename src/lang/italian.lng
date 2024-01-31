@@ -14,10 +14,6 @@ STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Velocità delle
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Come guardare la vernice asciugarsi
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Ideale
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_2                           :Troppo facile
-STR_PARAM_ROSTER                                                :Lista
-STR_PARAM_ROSTER_DESC                                           :Scegli quale set di navi utilizzare.
-STR_PARAM_ROSTER_OPTION_0                                       :Questa Grande Inghilterra
-STR_PARAM_ROSTER_OPTION_1                                       :Il Danubio Blu
 
 STR_NAME_SUFFIX_BARGE_TUG                                       :Rimorchiatore per chiatte
 STR_NAME_SUFFIX_CATAMARAN                                       :Catamarano

@@ -13,10 +13,6 @@ STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Velocidade do n
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Como assistir a tinta a secar
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Ideal
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_2                           :Batota
-STR_PARAM_ROSTER                                                :Registo
-STR_PARAM_ROSTER_DESC                                           :Escolher que conjunto de barcos usar.
-STR_PARAM_ROSTER_OPTION_0                                       :Esta Ilha de ceptro
-STR_PARAM_ROSTER_OPTION_1                                       :O Danúbio Azul
 
 STR_NAME_SUFFIX_BARGE_TUG                                       :Barcaça Rebocadora
 STR_NAME_SUFFIX_CONTAINER_FEEDER                                :Alimentador de Contentores

@@ -12,10 +12,6 @@ STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Schëffsgeschw.
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Dem Gras beim wuessen nokucken
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Optimal
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_2                           :Fuddelen
-STR_PARAM_ROSTER                                                :Lëscht
-STR_PARAM_ROSTER_DESC                                           :Wiel wellecht Set vu Schëffer soll benotzt ginn.
-STR_PARAM_ROSTER_OPTION_0                                       :D'Zepterinsel
-STR_PARAM_ROSTER_OPTION_1                                       :D'Blo Donau
 
 STR_NAME_SUFFIX_BARGE_TUG                                       :Schlepper
 STR_NAME_SUFFIX_CATAMARAN                                       :Katamaran

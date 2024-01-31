@@ -14,10 +14,6 @@ STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Luaths luinge
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Cho mall ri seilcheig
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Barrail
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_2                           :Cealgaireachd
-STR_PARAM_ROSTER                                                :Clàr nan longan
-STR_PARAM_ROSTER_DESC                                           :Tagh an seata de longan a chleachdas tu.
-STR_PARAM_ROSTER_OPTION_0                                       :A' Bhreatann
-STR_PARAM_ROSTER_OPTION_1                                       :An Danub Ghorm
 
 STR_NAME_SUFFIX_BARGE_TUG                                       :Tuga bàirc
 STR_NAME_SUFFIX_CATAMARAN                                       :Catamaran

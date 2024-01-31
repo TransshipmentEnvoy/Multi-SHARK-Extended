@@ -14,10 +14,6 @@ STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Prędkość sta
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Tempo żółwia
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Idealna
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_2                           :Podrasowana
-STR_PARAM_ROSTER                                                :Rejestr
-STR_PARAM_ROSTER_DESC                                           :Wybierz, który zestaw statków użyć.
-STR_PARAM_ROSTER_OPTION_0                                       :Wyspy Zjednoczonego Królestwa
-STR_PARAM_ROSTER_OPTION_1                                       :Die Blaue Donau
 
 STR_NAME_SUFFIX_BARGE_TUG                                       :Holownik barek
 STR_NAME_SUFFIX_CATAMARAN                                       :Katamaran

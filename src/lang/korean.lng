@@ -13,10 +13,6 @@ STR_PARAM_ADJUST_SHIP_SPEEDS                                    :배의 속력
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :매우 지루하다
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :필수적인
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_2                           :치트
-STR_PARAM_ROSTER                                                :등록부
-STR_PARAM_ROSTER_DESC                                           :어떤 종류의 선박 세트를 사용할 것인지 고르십시오.
-STR_PARAM_ROSTER_OPTION_0                                       :중심 섬
-STR_PARAM_ROSTER_OPTION_1                                       :푸른 다뉴브 호
 
 STR_NAME_SUFFIX_BARGE_TUG                                       :예인 바지선
 STR_NAME_SUFFIX_CATAMARAN                                       :쌍둥선

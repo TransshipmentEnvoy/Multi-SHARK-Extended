@@ -13,10 +13,6 @@ STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Vitesse des nav
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Lent, comme regarder la peinture sécher
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Idéal
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_2                           :Triche
-STR_PARAM_ROSTER                                                :Assortiment
-STR_PARAM_ROSTER_DESC                                           :Sélectionner quels navires utiliser.
-STR_PARAM_ROSTER_OPTION_0                                       :L'île de Grande Bretagne
-STR_PARAM_ROSTER_OPTION_1                                       :Le Beau Danube Bleu
 
 STR_NAME_SUFFIX_BARGE_TUG                                       :Remorqueur de barges
 STR_NAME_SUFFIX_CATAMARAN                                       :Catamaran

@@ -14,10 +14,6 @@ STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Brzina broda
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Kao gledanje sušenja boje
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Idealna
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_2                           :Varanje
-STR_PARAM_ROSTER                                                :Popis
-STR_PARAM_ROSTER_DESC                                           :Odaberite koji set brodova želite koristiti.
-STR_PARAM_ROSTER_OPTION_0                                       :Ovaj otok od žezla
-STR_PARAM_ROSTER_OPTION_1                                       :Plavi Dunav
 
 STR_NAME_SUFFIX_BARGE_TUG                                       :Remorker za barže
 STR_NAME_SUFFIX_CATAMARAN                                       :Katamaran
