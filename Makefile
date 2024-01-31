@@ -407,36 +407,10 @@ bundle_gsrc: $(DIR_NAME_SRC).tar.gz
 bundle_xsrc: $(DIR_NAME_SRC).tar.xz
 bundle_zsrc: $(DIR_NAME_SRC).tar.zip
 
-# Addition to config for tar releases
-Makefile.fordist:
-	$(_V) echo '################################################################' > $@
-	$(_V) echo '# Definitions needed for tar releases' >> $@
-	$(_V) echo '# This part is automatically generated' >> $@
-	$(_V) echo '################################################################' >> $@
-	$(_V) echo 'REPO_REVISION := $(REPO_REVISION)' >> $@
-	$(_V) echo 'REPO_BRANCH := $(REPO_BRANCH)' >> $@
-	$(_V) echo 'REPO_MODIFIED := $(REPO_MODIFIED)' >> $@
-	$(_V) echo 'REPO_TAGS    := $(REPO_TAGS)'    >> $@
-	$(_V) echo 'HG := :' >> $@
-
-ifneq ("$(strip $(HG))",":")
-$(DIR_NAME_SRC): $(MD5_SRC_FILENAME) Makefile.fordist
-	$(_E) "[ASSEMBLING] $(DIR_NAME_SRC)"
-	$(_V)-rm -rf $@
-	$(_V) mkdir $@
-	$(_V) cp $(CP_FLAGS) $(MD5_SRC_FILENAME) $(DIR_NAME_SRC)
-	$(_V) cp $(CP_FLAGS) Makefile.fordist $@/Makefile.dist
-else
-$(DIR_NAME_SRC):
-	$(_E) "Source releases can only be made from a hg checkout."
-	$(_V) false
-endif
-
 clean::
 	$(_E) "[CLEAN BUNDLE SRC]"
 	$(_V) -rm -rf $(DIR_NAME_SRC)
 	$(_V) -rm -rf $(DIR_NAME_SRC).tar
-	$(_V) -rm -rf Makefile.fordist
 
 maintainer-clean::
 	$(_E) "[MAINTAINER-CLEAN BUNDLE SRC]"
