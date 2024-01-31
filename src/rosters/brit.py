@@ -116,7 +116,7 @@ roster = Roster(id = 'brit',
                          labrador_utility_vessel,
                          ohshima_freight_hovercraft,
 
-                         
+
                          malin_freighter,
                          finisterre_freighter,
                          frisco_bay_freighter,
@@ -125,34 +125,34 @@ roster = Roster(id = 'brit',
                          quessant_freighter,
                          taurus_freighter,
                          shannon_freighter,
-                         
-                         
+
+
                          meteor_freighter,
                          marstein_freighter,
                          oran_freighter,
                          santorini_freighter,
-                         
+
                          cadiz_freighter,
                          munkegrund_freighter,
                          maspalomas_freighter,
-                         
+
                          mcclure_livestock_ship,
                          hitsuji_livestock_ship,
-                         
+
                          grindavik_reefer,
                          helsinki_reefer,
                          winterhold_container_reefer,
-                         
+
                          newport_container_feeder,
-                         whitgift_freight_barge,                         
+                         whitgift_freight_barge,
                          constance_freight_barge,
                          gorky_freight_barge,
                          lutschine_freight_barge,
                          schipbeek_freight_barge,
-                         
+
                          saint_marie_freight_barge,
                          marquette_freight_barge,
-                        
+
                          roland_tanker,
                          bundaberg_tanker,
                          eddystone_tanker,
@@ -164,11 +164,11 @@ roster = Roster(id = 'brit',
                          huanghai_lng_tanker,
                          provence_edibles_tanker,
                          lorraine_edibles_tanker,
-                        
+
 
                          freshney_tanker_barge,
                          volgoneft_two_seventy_tanker_barge,
-                         volgoneft_five_forty_tanker_barge,
                          volgoneft_three_twenty_tanker_barge,
+                         volgoneft_five_forty_tanker_barge,
                          volgoneft_six_thirty_tanker_barge
 ])
