@@ -38,7 +38,7 @@ STR_NAME_SUFFIX_UTILITY_VESSEL                                  :Nave di support
 STR_NAME_SUFFIX_UTILITY_TUG                                     :Rimorchiatore di supporto
 
 
-STR_BUY_MENU_TEXT                                               :{}Tipo: {GOLD}{STRING}{}{STRING}
+STR_BUY_MENU_TEXT                                               :{}Tipo: {GOLD}{STRING}{STRING}{}{STRING}
 STR_BUY_MENU_REFIT_CAPACITIES_PACKET                            :{}{BLACK}Capacità dopo riadattamento: {GOLD}{COMMA} sacchi di posta o {COMMA}t di merci leggere
 STR_BUY_MENU_REFIT_CAPACITIES_TRAWLER                           :{}{BLACK}Capacità dopo riadattamento: {GOLD}{COMMA} passeggeri, {COMMA} sacchi di posta, {COMMA}t pesce nella stiva, o {COMMA}t di merci leggere come carico sul ponte
 STR_BUY_MENU_REFIT_CAPACITIES_UTILITY                           :{}{BLACK}Capacità dopo riadattamento: {GOLD}{COMMA} sacchi di posta o {COMMA}t di merci

@@ -38,7 +38,7 @@ STR_NAME_SUFFIX_UTILITY_VESSEL                                  :Havnebåt
 STR_NAME_SUFFIX_UTILITY_TUG                                     :Havneslepebåt
 
 
-STR_BUY_MENU_TEXT                                               :{}Type: {GOLD}{STRING}{}{STRING}
+STR_BUY_MENU_TEXT                                               :{}Type: {GOLD}{STRING}{STRING}{}{STRING}
 STR_BUY_MENU_REFIT_CAPACITIES_PACKET                            :{}{BLACK}Kapasitet ved ombygning: {GOLD}{COMMA} postsekker eller {COMMA}t ekspressgods
 STR_BUY_MENU_REFIT_CAPACITIES_TRAWLER                           :{}{BLACK}Kapasitet ved ombygning: {GOLD}{COMMA} passasjerer, {COMMA} postsekker, {COMMA}t fisk, eller {COMMA}t ekspressgods som varer på dekk
 STR_BUY_MENU_REFIT_CAPACITIES_UTILITY                           :{}{BLACK}Kapasitet ved ombygning: {GOLD}{COMMA} postsekker eller {COMMA}t fraktgods

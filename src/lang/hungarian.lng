@@ -37,7 +37,7 @@ STR_NAME_SUFFIX_UTILITY_VESSEL                                  :szállítóhaj�
 STR_NAME_SUFFIX_UTILITY_TUG                                     :vontatóhajó
 
 
-STR_BUY_MENU_TEXT                                               :{}Típus: {GOLD}{STRING}{}{STRING}
+STR_BUY_MENU_TEXT                                               :{}Típus: {GOLD}{STRING}{STRING}{}{STRING}
 STR_BUY_MENU_REFIT_CAPACITIES_PACKET                            :{}{BLACK}Kapacitás, ha átalakítod: {GOLD}{COMMA} csomag levél vagy {COMMA}t express rakomány
 STR_BUY_MENU_REFIT_CAPACITIES_TRAWLER                           :{}{BLACK}Átalakított kapacitás: {GOLD}{COMMA} utas, {COMMA} csomag levél, {COMMA}t hal, vagy {COMMA}t egyéb rakomány a fedélzeten szállítva.
 STR_BUY_MENU_REFIT_CAPACITIES_UTILITY                           :{}{BLACK}Kapacitás, ha átalakítod: {GOLD}{COMMA} csomag levél vagy {COMMA}t rakomány

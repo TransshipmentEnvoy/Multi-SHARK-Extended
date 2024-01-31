@@ -33,7 +33,7 @@ STR_NAME_SUFFIX_UTILITY_VESSEL                                  :Navigium Utile
 STR_NAME_SUFFIX_UTILITY_TUG                                     :Scapha Tractoria
 
 
-STR_BUY_MENU_TEXT                                               :{}Typus: {GOLD}{STRING}{}{STRING}
+STR_BUY_MENU_TEXT                                               :{}Typus: {GOLD}{STRING}{STRING}{}{STRING}
 STR_BUY_MENU_REFIT_CAPACITIES_PACKET                            :{}{BLACK}Capacitas refecta: {GOLD}{COMMA} sacci epistularum sive {COMMA}t mercimonii
 STR_BUY_MENU_REFIT_CAPACITIES_TRAWLER                           :{}{BLACK}Capacitas refecta: {GOLD}{COMMA} vectores, {COMMA} sacci epistularum, {COMMA}t piscium in holds, vel {COMMA}t mercimonii supra constratum
 STR_BUY_MENU_REFIT_CAPACITIES_UTILITY                           :{}{BLACK}Capacitas refecta: {GOLD}{COMMA} sacci epistularum sive {COMMA}t oneris

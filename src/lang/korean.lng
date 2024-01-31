@@ -37,7 +37,7 @@ STR_NAME_SUFFIX_UTILITY_VESSEL                                  :다용도 선�
 STR_NAME_SUFFIX_UTILITY_TUG                                     :다용도 예인선
 
 
-STR_BUY_MENU_TEXT                                               :{} 화물: {GOLD}{STRING}{}{STRING}
+STR_BUY_MENU_TEXT                                               :{} 화물: {GOLD}{STRING}{STRING}{}{STRING}
 STR_BUY_MENU_REFIT_CAPACITIES_PACKET                            :{}{BLACK}수개조되었을 때의 수송량: {GOLD}우편{COMMA}자루 또는 급행 화물{COMMA}톤
 STR_BUY_MENU_REFIT_CAPACITIES_TRAWLER                           :{}{BLACK}개조되었을 때의 수송량: 승객{GOLD}{COMMA}명, 우편 {COMMA}자루, 수산물 {COMMA}톤, 또는 갑판 수송 급행 화물 {COMMA}톤
 STR_BUY_MENU_REFIT_CAPACITIES_UTILITY                           :{}{BLACK}개조되었을 떄의 수송량: {GOLD}우편{COMMA}자루 또는 화물 {COMMA}톤

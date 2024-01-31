@@ -37,7 +37,7 @@ STR_NAME_SUFFIX_UTILITY_VESSEL                                  :Bateau utilitai
 STR_NAME_SUFFIX_UTILITY_TUG                                     :Remorqueur
 
 
-STR_BUY_MENU_TEXT                                               :{}Type : {GOLD}{STRING}{}{STRING}
+STR_BUY_MENU_TEXT                                               :{}Type : {GOLD}{STRING}{STRING}{}{STRING}
 STR_BUY_MENU_REFIT_CAPACITIES_PACKET                            :{}{BLACK}Capacité quand réaménagé{NBSP}: {GOLD}{COMMA}{NBSP}sac{P 0 "" s} de courrier ou {COMMA}{NBSP}t de marchandises express
 STR_BUY_MENU_REFIT_CAPACITIES_TRAWLER                           :{}{BLACK}Capacité quand réaménagé : {GOLD}{COMMA} passagers, {COMMA} sacs de courrier, {COMMA}t de poisson dans les cales, ou {COMMA}t de marchandises express sur le pont
 STR_BUY_MENU_REFIT_CAPACITIES_UTILITY                           :{}{BLACK}Capacité quand réaménagé : {GOLD}{COMMA} sacs de courrier ou {COMMA}{NBSP}t de marchandises

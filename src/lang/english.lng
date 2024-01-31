@@ -38,7 +38,7 @@ STR_NAME_SUFFIX_UTILITY_VESSEL                                  :Utility Vessel
 STR_NAME_SUFFIX_UTILITY_TUG                                     :Utility Tug
 
 
-STR_BUY_MENU_TEXT                                               :{}Type: {GOLD}{STRING}{}{STRING}
+STR_BUY_MENU_TEXT                                               :{}Type: {GOLD}{STRING}{STRING}{}{STRING}
 STR_BUY_MENU_REFIT_CAPACITIES_PACKET                            :{}{BLACK}Capacity when refitted: {GOLD}{COMMA} bags of mail or {COMMA}t of express freight
 STR_BUY_MENU_REFIT_CAPACITIES_TRAWLER                           :{}{BLACK}Capacity when refitted: {GOLD}{COMMA} passengers, {COMMA} bags of mail, {COMMA}t of fish in holds, or {COMMA}t of express freight as deck cargo
 STR_BUY_MENU_REFIT_CAPACITIES_UTILITY                           :{}{BLACK}Capacity when refitted: {GOLD}{COMMA} bags of mail or {COMMA}t of freight
@@ -101,3 +101,11 @@ STR_SECTION_1                                                   :Section 1
 STR_SECTION_2                                                   :Section 2
 STR_SECTION_3                                                   :Section 3
 STR_SECTION_4                                                   :Section 4
+
+STR_HOLD_DESCRIPTION_FORE_AFT_HOLDS_2                           : with 2 holds
+STR_HOLD_DESCRIPTION_FORE_MID_AFT_HOLDS_3                       : with 3 holds
+STR_HOLD_DESCRIPTION_TANKS_2                                    : with 2 tanks
+STR_HOLD_DESCRIPTION_TANKS_3                                    : with 3 tanks
+STR_HOLD_DESCRIPTION_TANKS_4                                    : with 4 tanks
+STR_HOLD_DESCRIPTION_SECTIONS_4                                 : with 4 sections
+STR_HOLD_DESCRIPTION_FIRST_SECOND_BARGES_2                      : with 2 holds

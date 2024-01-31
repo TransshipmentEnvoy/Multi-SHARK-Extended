@@ -36,7 +36,7 @@ STR_NAME_SUFFIX_UTILITY_VESSEL                                  :Mehrzweckschëf
 STR_NAME_SUFFIX_UTILITY_TUG                                     :Mehrzweckschlepper
 
 
-STR_BUY_MENU_TEXT                                               :{}Typ: {GOLD}{STRING}{}{STRING}
+STR_BUY_MENU_TEXT                                               :{}Typ: {GOLD}{STRING}{STRING}{}{STRING}
 STR_BUY_MENU_REFIT_CAPACITIES_PACKET                            :{}{BLACK}Kapazitéit wann ëmgebaut: {GOLD}{COMMA} Postsäck {COMMA}t Expressliwwerungen
 STR_BUY_MENU_REFIT_CAPACITIES_TRAWLER                           :{}{BLACK}Kapazitéit wann ëmgebaut: {GOLD}{COMMA} Passagéier, {COMMA} Postsäck, {COMMA}t Fësch, oder {COMMA}t Expressliwwerung un Deck.
 STR_BUY_MENU_REFIT_CAPACITIES_UTILITY                           :{}{BLACK}Kapazitéit wann ëmgebaut: {GOLD}{COMMA} Säck Post oder {COMMA}t Fracht

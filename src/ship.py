@@ -154,11 +154,17 @@ class Ship(object):
     def get_name(self):
         return "string(STR_NAME_" + self.id +", string(" + self.get_str_name_suffix() + "))"
 
+    def get_str_hold_description(self):
+        if self.extra_parts > 0 and self.refit_part_name:
+            return 'STR_HOLD_DESCRIPTION_' + self.refit_part_name.upper() + '_' + str(self.extra_parts + 1)
+        else:
+            return 'STR_EMPTY'
+
     def get_buy_menu_string(self):
         buy_menu_template = Template(
-            "string(STR_BUY_MENU_TEXT, string(${str_type_info}), string(STR_EMPTY))"
+            "string(STR_BUY_MENU_TEXT, string(${str_type_info}), string(${str_hold_description}), string(STR_EMPTY))"
         )
-        return buy_menu_template.substitute(str_type_info=self.get_str_type_info())
+        return buy_menu_template.substitute(str_type_info=self.get_str_type_info(), str_hold_description=self.get_str_hold_description())
 
     def get_cargo_suffix(self):
         return 'string(' + self.cargo_units_refit_menu + ')'
@@ -216,9 +222,9 @@ class MixinRefittableCapacity(object):
 
     def get_buy_menu_string(self):
         buy_menu_template = Template(
-            "string(STR_BUY_MENU_TEXT, string(${str_type_info}), string(STR_GENERIC_REFIT_SUBTYPE_BUY_MENU_INFO,${capacity_0},${capacity_1},${capacity_2},string(${cargo_units})))"
+            "string(STR_BUY_MENU_TEXT, string(${str_type_info}), string(${str_hold_description}), string(STR_GENERIC_REFIT_SUBTYPE_BUY_MENU_INFO,${capacity_0},${capacity_1},${capacity_2},string(${cargo_units})))"
         )
-        return buy_menu_template.substitute(str_type_info=self.get_str_type_info(), capacity_0=self.capacities_refittable[0],
+        return buy_menu_template.substitute(str_type_info=self.get_str_type_info(), str_hold_description=self.get_str_hold_description(), capacity_0=self.capacities_refittable[0],
                                         capacity_1=self.capacities_refittable[1], capacity_2=self.capacities_refittable[2],
                                         cargo_units=self.cargo_units_buy_menu)
 
@@ -267,9 +273,9 @@ class UtilityVessel(Ship):
     def get_buy_menu_string(self):
         # set buy menu text, with various variations
         buy_menu_template = Template(
-            "string(STR_BUY_MENU_TEXT, string(${str_type_info}), string(STR_BUY_MENU_REFIT_CAPACITIES_UTILITY,${capacity_mail},${capacity_cargo_holds}))"
+            "string(STR_BUY_MENU_TEXT, string(${str_type_info}), string(${str_hold_description}), string(STR_BUY_MENU_REFIT_CAPACITIES_UTILITY,${capacity_mail},${capacity_cargo_holds}))"
         )
-        return buy_menu_template.substitute(str_type_info=self.get_str_type_info(), capacity_pax=self.capacity_pax,
+        return buy_menu_template.substitute(str_type_info=self.get_str_type_info(), str_hold_description=self.get_str_hold_description(), capacity_pax=self.capacity_pax,
                                             capacity_mail=self.capacity_mail, capacity_cargo_holds=self.capacity_cargo_holds)
 
 
@@ -330,9 +336,9 @@ class PacketBoat(Ship):
     def get_buy_menu_string(self):
         # set buy menu text, with various variations
         buy_menu_template = Template(
-            "string(STR_BUY_MENU_TEXT, string(${str_type_info}), string(STR_BUY_MENU_REFIT_CAPACITIES_PACKET,${capacity_mail},${capacity_cargo_holds}))"
+            "string(STR_BUY_MENU_TEXT, string(${str_type_info}), string(${str_hold_description}), string(STR_BUY_MENU_REFIT_CAPACITIES_PACKET,${capacity_mail},${capacity_cargo_holds}))"
         )
-        return buy_menu_template.substitute(str_type_info=self.get_str_type_info(), capacity_pax=self.capacity_pax,
+        return buy_menu_template.substitute(str_type_info=self.get_str_type_info(), str_hold_description=self.get_str_hold_description(), capacity_pax=self.capacity_pax,
                                             capacity_mail=self.capacity_mail, capacity_cargo_holds=self.capacity_cargo_holds)
 
 
@@ -365,9 +371,9 @@ class Trawler(Ship):
     def get_buy_menu_string(self):
         # set buy menu text, with various variations
         buy_menu_template = Template(
-                "string(STR_BUY_MENU_TEXT, string(${str_type_info}), string(STR_BUY_MENU_REFIT_CAPACITIES_TRAWLER,${capacity_pax},${capacity_mail},${capacity_fish_holds},${capacity_deck_cargo}))"
+                "string(STR_BUY_MENU_TEXT, string(${str_type_info}), string(${str_hold_description}), string(STR_BUY_MENU_REFIT_CAPACITIES_TRAWLER,${capacity_pax},${capacity_mail},${capacity_fish_holds},${capacity_deck_cargo}))"
         )
-        return buy_menu_template.substitute(str_type_info=self.get_str_type_info(), capacity_pax=self.capacity_pax,
+        return buy_menu_template.substitute(str_type_info=self.get_str_type_info(), str_hold_description=self.get_str_hold_description(), capacity_pax=self.capacity_pax,
                                             capacity_mail=self.capacity_mail, capacity_deck_cargo=self.capacity_deck_cargo,
                                             capacity_fish_holds=self.capacity_fish_holds)
 
