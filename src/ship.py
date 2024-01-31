@@ -57,6 +57,7 @@ class Ship(object):
         self.roster_id = None
         # Extra cargo parts
         self.extra_parts = kwargs.get('extra_parts', 0)
+        self.refit_part_name = kwargs.get('refit_part_name', None)
 
     def add_model_variant(self, intro_date, end_date, spritesheet_suffix):
         self.model_variants.append(ModelVariant(intro_date, end_date, spritesheet_suffix))

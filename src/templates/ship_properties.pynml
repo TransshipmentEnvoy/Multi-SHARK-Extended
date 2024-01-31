@@ -65,6 +65,9 @@ item(FEAT_SHIPS, ${ship.id}, ${ship.numeric_id}) {
 <tal:extra_parts condition="ship.extra_parts > 0">
         articulated_part:               ${ship.id}_articulated_part;
 </tal:extra_parts>
+<tal:extra_parts condition="ship.refit_part_name">
+        refit_part_name:                switch_refit_part_name_${ship.refit_part_name};
+</tal:extra_parts>
     }
 }
 
