@@ -1,0 +1,8 @@
+__pycache__
+.nmlcache
+generated/
+chameleon_cache/
+*.grf
+*.tar
+fish.nml
+docs/
