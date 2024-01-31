@@ -55,6 +55,8 @@ class Ship(object):
         self.model_variants = []
         # roster is set when the vehicle is registered to a roster, only one roster per vehicle
         self.roster_id = None
+        # Extra cargo parts
+        self.extra_parts = kwargs.get('extra_parts', 0)
 
     def add_model_variant(self, intro_date, end_date, spritesheet_suffix):
         self.model_variants.append(ModelVariant(intro_date, end_date, spritesheet_suffix))
@@ -202,6 +204,9 @@ class Ship(object):
     def render(self):
         template = templates[self.template]
         return template(ship=self, global_constants=global_constants)
+
+    def scale_capacity(self, cargo_capacity):
+        return cargo_capacity // (self.extra_parts + 1) # Divide cargo evenly between parts
 
 
 class MixinRefittableCapacity(object):
@@ -417,7 +422,7 @@ class Reefer(MixinRefittableCapacity, Ship):
         self.cargo_age_period = 2 * global_constants.CARGO_AGE_PERIOD # improved decay rate
          # kludge to adjust canal speed of the one reefer ship.
         self.canal_speed = (0.6, 1)[self.inland_capable]
-        
+
 class ContainerReefer(Reefer):
     """
     Reefer but with containers
@@ -426,7 +431,7 @@ class ContainerReefer(Reefer):
         # beware - subclasses reefer (more subclassing here than is ideal)
         super(ContainerReefer, self).__init__(id, **kwargs)
         self.template = 'container_carrier.pynml'
-        
+
 
 
 class ContainerCarrier(Ship):
