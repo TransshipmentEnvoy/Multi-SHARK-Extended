@@ -17,7 +17,7 @@ STR_PARAM_ROSTER_DESC                                           :Choose which se
 STR_PARAM_ROSTER_OPTION_0                                       :There is only one roster
 STR_PARAM_ROSTER_OPTION_1                                       :The Blue Danube
 
-STR_NAME_SUFFIX_BLANK											:
+STR_NAME_SUFFIX_BLANK                                           :
 STR_NAME_SUFFIX_BARGE_TUG                                       :Barge Tug
 STR_NAME_SUFFIX_CATAMARAN                                       :Catamaran
 STR_NAME_SUFFIX_CONTAINER_FEEDER                                :Container Feeder
@@ -75,7 +75,7 @@ STR_RIG_SUPPLY_FAST_CATAMARAN                                   :Fast catamaran 
 STR_REEFER                                                      :Refrigerated ship (improved payment rate for perishable cargos)
 STR_SMALL_FREIGHTER                                             :Small Freighter
 STR_SMALL_GENERAL_PURPOSE_VESSEL                                :Small general purpose vessel
-STR_SMALL_TANKER_INLAND                     		            :Small tanker for inland waterways
+STR_SMALL_TANKER_INLAND                                         :Small tanker for inland waterways
 STR_SMALL_TANKER_COASTAL_INLAND                                 :Small tanker for coastal and inland waterways
 STR_TRAWLER                                                     :Trawler (dedicated hold for fish)
 STR_VEHICLE_FERRY                                               :Vehicle ferry
