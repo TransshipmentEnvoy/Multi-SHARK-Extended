@@ -8,8 +8,6 @@ STR_GRF_DESCRIPTION                                             :Licenza: {SILVE
 STR_EMPTY                                                       :
 
 
-STR_PARAM_RESET_CONSTRUCTION_COSTS                              :Migliora i costi di costruzione di canali, acquedotti e chiuse.
-STR_PARAM_RESET_CONSTRUCTION_COSTS_DESC                         :Riduce i costi di costruzione (e rimozione) di canali, aquedotti e chiuse. Offre maggior equilibrio tra trasporto su acqua e altri tipi di trasporto.
 STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Velocità delle navi
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Come guardare la vernice asciugarsi
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Ideale

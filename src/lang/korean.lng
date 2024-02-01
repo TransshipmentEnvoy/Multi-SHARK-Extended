@@ -7,8 +7,6 @@ STR_GRF_DESCRIPTION                                             :라이선스: {
 STR_EMPTY                                                       :
 
 
-STR_PARAM_RESET_CONSTRUCTION_COSTS                              :운하, 송수로, 갑문 건설시 개선된 건설 비용을 사용합니다.
-STR_PARAM_RESET_CONSTRUCTION_COSTS_DESC                         :운하, 송수로, 갑문 건설 및 파괴시 비용을 감소시킵니다. 해안 운송과 다른 운송을 더 균형잡히게 합니다.
 STR_PARAM_ADJUST_SHIP_SPEEDS                                    :배의 속력
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :매우 지루하다
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :필수적인

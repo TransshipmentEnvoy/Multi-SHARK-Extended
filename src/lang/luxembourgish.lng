@@ -6,8 +6,6 @@ STR_GRF_DESCRIPTION                                             :Lizenz: {SILVER
 STR_EMPTY                                                       :
 
 
-STR_PARAM_RESET_CONSTRUCTION_COSTS                              :Benotz verbessert Konstruktiounskäschten fir Kanäl, Aquadukter a Schleisen.
-STR_PARAM_RESET_CONSTRUCTION_COSTS_DESC                         :Reduzéiert Konstruktiouns- (an Ofrapp) Käschten fir anäl, Aquadukter a Schleisen. Liwwert eng besser Balance tëscht dem Waassertransport an aneren Transporttypen.
 STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Schëffsgeschw.
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Dem Gras beim wuessen nokucken
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Optimal

@@ -7,8 +7,6 @@ STR_GRF_DESCRIPTION                                             :Licença: {SILV
 STR_EMPTY                                                       :
 
 
-STR_PARAM_RESET_CONSTRUCTION_COSTS                              :Usar Custos de construção melhorados para canais, aquedutos e diques.
-STR_PARAM_RESET_CONSTRUCTION_COSTS_DESC                         :Reduz construção (e remoção) de custos para canais, aquedutos e diques. Fornece um melhor balanço entre transportes marítimos e outros tipos de transporte
 STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Velocidade do navio
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Como assistir a tinta a secar
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Ideal

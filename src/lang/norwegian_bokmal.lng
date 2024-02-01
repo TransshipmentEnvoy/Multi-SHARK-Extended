@@ -8,8 +8,6 @@ STR_GRF_DESCRIPTION                                             :Lisens: {SILVER
 STR_EMPTY                                                       :
 
 
-STR_PARAM_RESET_CONSTRUCTION_COSTS                              :Bruk forbedrede byggekostnader for kanaler, akvedukter og sluser.
-STR_PARAM_RESET_CONSTRUCTION_COSTS_DESC                         :Reduserer byggekostnader (og rivningskostander) for kanaler, akvedukter og sluser. Gir bedre balanse mellom vanntransport og andre transportformer.
 STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Båtfart
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Som å se maling tørke
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Ideell

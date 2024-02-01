@@ -7,8 +7,6 @@ STR_UNSUPPORTED_VERSION                                         :Requires an Ope
 STR_EMPTY                                                       :
 
 
-STR_PARAM_RESET_CONSTRUCTION_COSTS                              :Use improved construction costs for canals, aqueducts and locks.
-STR_PARAM_RESET_CONSTRUCTION_COSTS_DESC                         :Reduces construction (and removal) costs for canals, aqueducts and locks.  Provides a better balance between water transport and other transport types.
 STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Ship speed
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Slowpoke
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Balanced

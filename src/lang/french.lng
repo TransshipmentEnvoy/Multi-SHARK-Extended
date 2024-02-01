@@ -7,8 +7,6 @@ STR_GRF_DESCRIPTION                                             :Licence: {SILVE
 STR_EMPTY                                                       :
 
 
-STR_PARAM_RESET_CONSTRUCTION_COSTS                              :Coûts de construction améliorés pour les canaux, aqueducs et écluses
-STR_PARAM_RESET_CONSTRUCTION_COSTS_DESC                         :Réduit les coûts de construction (et de démolition) des canaux, aqueducs et écluses.  Meilleur équilibre entre les bateaux et les autres moyens de transport.
 STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Vitesse des navires
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Lent, comme regarder la peinture sécher
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Idéal

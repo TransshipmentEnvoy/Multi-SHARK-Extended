@@ -7,8 +7,6 @@ STR_GRF_DESCRIPTION                                             :Lisensie: {SILV
 STR_EMPTY                                                       :
 
 
-STR_PARAM_RESET_CONSTRUCTION_COSTS                              :Gebruik verbeterde boukoste vir kanale, waterleidings en "locks".
-STR_PARAM_RESET_CONSTRUCTION_COSTS_DESC                         :Verminder konstruksie (en verwydering) koste vir kanale, waterleidings en "locks". Verskaf 'n beter balans tussen water vervoer en ander vervoer tipes.
 STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Skip Spoed
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Baie Stadig
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Ideaal

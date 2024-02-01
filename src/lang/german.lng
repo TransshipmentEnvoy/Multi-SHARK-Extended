@@ -7,8 +7,6 @@ STR_GRF_DESCRIPTION                                             :Lizenz: {SILVER
 STR_EMPTY                                                       :
 
 
-STR_PARAM_RESET_CONSTRUCTION_COSTS                              :Nutze angepasste Baukosten für Kanäle, Aquädukte und Schleusen.
-STR_PARAM_RESET_CONSTRUCTION_COSTS_DESC                         :Vermindert die Konstruktions- und Abrisskosten für Kanäle, Aquädukte und Schleusen. Verbessert die Spielbalance der Wasserwege gegenüber anderen Transportmöglichkeiten.
 STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Geschwindigkeit von Schiffen
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Mögen der Farbe beim Trocknen zugucken
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Ideal

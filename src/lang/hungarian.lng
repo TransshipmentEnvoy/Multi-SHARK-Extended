@@ -7,8 +7,6 @@ STR_GRF_DESCRIPTION                                             :Licenc: {SILVER
 STR_EMPTY                                                       :
 
 
-STR_PARAM_RESET_CONSTRUCTION_COSTS                              :Javított csatorna, csatornahíd és zsilip építési költségek
-STR_PARAM_RESET_CONSTRUCTION_COSTS_DESC                         :Csökkenti a csatornák, csatornahidak és a zsilipek építkezési (és eltávolítási) költségeit. Lehetőséget teremt, hogy jobban kiegyensúlyozd a vízi közlekedést a többivel.
 STR_PARAM_ADJUST_SHIP_SPEEDS                                    :Hajó sebessége
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :ahogy a festék szárad
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Ideális
