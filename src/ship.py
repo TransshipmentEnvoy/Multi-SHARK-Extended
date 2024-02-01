@@ -57,6 +57,7 @@ class Ship(object):
         self.roster_id = None
         # Extra cargo parts
         self.extra_parts = kwargs.get('extra_parts', 0)
+        self.extra_part_cargo_fraction = kwargs.get('extra_part_cargo_fraction', None)
         self.refit_part_name = kwargs.get('refit_part_name', None)
 
     def add_model_variant(self, intro_date, end_date, spritesheet_suffix):
@@ -212,7 +213,12 @@ class Ship(object):
         template = templates[self.template]
         return template(ship=self, global_constants=global_constants)
 
+    def scale_extra_part_capacity(self, cargo_capacity):
+        return int((cargo_capacity * self.extra_part_cargo_fraction) / 100)
+
     def scale_capacity(self, cargo_capacity):
+        if self.extra_part_cargo_fraction:
+            return cargo_capacity - self.scale_extra_part_capacity(cargo_capacity)
         return cargo_capacity // (self.extra_parts + 1) # Divide cargo evenly between parts
 
 
