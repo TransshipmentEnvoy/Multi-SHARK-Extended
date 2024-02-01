@@ -2,11 +2,14 @@ import global_constants
 from ship import PacketBoat
 
 ship = PacketBoat(id = 'great_white_vehicle_ferry',
-            numeric_id = 2031,
+            numeric_id = 2032,
             title = 'Great White [Ferry]',
             capacity_pax = 1250,
-            capacity_cargo_holds = 650,
+            capacity_cargo_holds = 655,
             capacity_mail = 1250,
+            extra_parts = 3,
+            extra_part_cargo_fraction = 20.8,
+            refit_part_name = 'decks',
             replacement_id = '-none',
             buy_cost = 105,
             fixed_run_cost_factor = 20.0,
