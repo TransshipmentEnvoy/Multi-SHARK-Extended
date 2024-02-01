@@ -30,7 +30,7 @@ item(FEAT_SHIPS, ${ship.id}_auxiliary, ${ship.numeric_id + 1}) {
         refit_cost:                     0; // leave at 0 for refitting without defining cb
         is_refittable:                  1;
         refittable_cargo_classes:       bitmask(${ship.refittable_classes});
-        non_refittable_cargo_classes:   bitmask(); // don't set non-refittable classes, increases likelihood of breaking cargo support
+        non_refittable_cargo_classes:   bitmask(${ship.non_refittable_classes}); // don't set non-refittable classes except in special cases, increases likelihood of breaking cargo support
         cargo_allow_refit:              [${ship.get_label_refits_allowed()}];
         cargo_disallow_refit:           [${ship.get_label_refits_disallowed()}];
         default_cargo_type:             ${ship.default_cargo};
@@ -76,7 +76,7 @@ item(FEAT_SHIPS, ${ship.id}, ${ship.numeric_id}) {
         refit_cost:                     0; // leave at 0 for refitting without defining cb
         is_refittable:                  1;
         refittable_cargo_classes:       bitmask(${ship.refittable_classes});
-        non_refittable_cargo_classes:   bitmask(); // don't set non-refittable classes, increases likelihood of breaking cargo support
+        non_refittable_cargo_classes:   bitmask(${ship.non_refittable_classes}); // don't set non-refittable classes except in special cases, increases likelihood of breaking cargo support
         cargo_allow_refit:              [${ship.get_label_refits_allowed()}];
         cargo_disallow_refit:           [${ship.get_label_refits_disallowed()}];
         default_cargo_type:             ${ship.default_cargo};

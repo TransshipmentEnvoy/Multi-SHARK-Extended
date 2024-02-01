@@ -10,8 +10,8 @@ base_refits_by_class = {'empty': [],
                        'refrigerated_freight': ['CC_REFRIGERATED'],
                        'express_freight': ['CC_EXPRESS','CC_ARMOURED']}
 
-label_refits_disallowed = {'edible_liquids': ['MILK', 'WATR', 'BEER', 'FOOD'],
-                           'non_edible_liquids': ['RFPR', 'OIL_', 'FMSP', 'PETR']}
+label_refits_disallowed = {'edible_liquids': ['MILK', 'WATR', 'BEER', 'FOOD', 'EOIL'],
+                           'non_edible_liquids': ['RFPR', 'OIL_', 'FMSP', 'PETR', 'SOAP', 'O2__', 'N7__', 'COAT', 'SULP', 'KAOL']}
 
 # used to construct the cargo table automatically
 # ! order is significant ! - openttd will cascade through default cargos in the order specified by the cargo table
@@ -65,7 +65,13 @@ cargo_labels = ['PASS', # pax first
                 'OLSD',
                 'SUGR',
                 'BEAN',
-                'NITR']
+                'EOIL',
+                'SOAP',
+                'O2__',
+                'N7__',
+                'COAT',
+                'SULP',
+                'KAOL']
 
 # chameleon templating goes faster if a cache dir is used; this specifies which dir is cache dir
 chameleon_cache_dir = 'chameleon_cache'

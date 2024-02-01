@@ -44,6 +44,7 @@ class Ship(object):
         self.speed_unladen = self.speed * kwargs.get('speed_factor_unladen', None)
         self.ocean_speed = (1, 1)[self.sea_capable] # currently there is no penalty at sea for river boats
         self.canal_speed = (0.7, 1)[self.inland_capable]
+        self.non_refittable_class_list = []
         # declare capacities for pax, mail and freight, as they are needed later for nml switches
         self.capacity_pax = kwargs.get('capacity_pax', 0)
         self.capacity_mail = kwargs.get('capacity_mail', 0)
@@ -128,6 +129,10 @@ class Ship(object):
         for i in self.class_refit_groups:
             [cargo_classes.append(cargo_class) for cargo_class in global_constants.base_refits_by_class[i]]
         return ','.join(set(cargo_classes)) # use set() here to dedupe
+
+    @property
+    def non_refittable_classes(self):
+        return ','.join(set(self.non_refittable_class_list)) # use set() here to dedupe
 
     def get_label_refits_allowed(self):
         # allowed labels, for fine-grained control in addition to classes
@@ -432,6 +437,7 @@ class EdiblesTanker(Ship):
         self.class_refit_groups = ['liquids']
         self.label_refits_allowed = [] # refits most cargos that have liquid class even if they might be inedibles
         self.label_refits_disallowed = global_constants.label_refits_disallowed['non_edible_liquids'] # don't allow known inedibles
+        self.non_refittable_class_list.append('CC_HAZARDOUS')
         self.capacity_tanks = kwargs.get('capacity_tanks', None)
         self.capacity_freight = self.capacity_tanks
         self.default_cargo = 'WATR'
