@@ -218,8 +218,8 @@ class Ship(object):
 
     def scale_capacity(self, cargo_capacity):
         if self.extra_part_cargo_fraction:
-            return cargo_capacity - self.scale_extra_part_capacity(cargo_capacity)
-        return cargo_capacity // (self.extra_parts + 1) # Divide cargo evenly between parts
+            return (cargo_capacity - self.scale_extra_part_capacity(cargo_capacity)) // (self.extra_parts) # Divide non-final cargo evenly between non-final parts
+        return cargo_capacity // (self.extra_parts + 1) # Divide cargo evenly between all parts
 
 
 class MixinRefittableCapacity(object):

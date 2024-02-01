@@ -46,7 +46,10 @@ item(FEAT_SHIPS, ${ship.id}_auxiliary, ${ship.numeric_id + 1}) {
 <tal:extra_parts condition="ship.extra_parts > 0">
 switch (FEAT_SHIPS, SELF, ${ship.id}_articulated_part, extra_callback_info1) {
 <tal:extra_part_cargo_fraction condition="ship.extra_part_cargo_fraction">
-    1: ${ship.id}_auxiliary;
+<tal:extra_part_cargo_fraction_extra_parts condition="ship.extra_parts > 1">
+    1..${ship.extra_parts - 1}: ${ship.id};
+</tal:extra_part_cargo_fraction_extra_parts>
+    ${ship.extra_parts}: ${ship.id}_auxiliary;
 </tal:extra_part_cargo_fraction>
 <tal:not_extra_part_cargo_fraction condition="not ship.extra_part_cargo_fraction">
     1..${ship.extra_parts}: return ${ship.id};
