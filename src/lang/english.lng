@@ -12,6 +12,12 @@ STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_0                           :Slowpoke
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Balanced
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_2                           :Speedy
 
+STR_PARAM_ADJUST_SHIP_RUNNING_COSTS                             :Ship running costs
+
+STR_PARAM_ADJUST_COSTS_OPTION_0                                 :Cheap
+STR_PARAM_ADJUST_COSTS_OPTION_1                                 :Balanced
+STR_PARAM_ADJUST_COSTS_OPTION_2                                 :Expensive
+
 STR_NAME_SUFFIX_BLANK                                           :
 STR_NAME_SUFFIX_BARGE_TUG                                       :Barge Tug
 STR_NAME_SUFFIX_CATAMARAN                                       :Catamaran

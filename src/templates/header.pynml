@@ -18,6 +18,20 @@ grf {
             };
         }
     }
+    param 1 {
+        param_ship_running_costs {
+            type:    int;
+            name:    string(STR_PARAM_ADJUST_SHIP_RUNNING_COSTS);
+            min_value: 0;
+            max_value: 2;
+            def_value: 1;
+            names: {
+                0: string(STR_PARAM_ADJUST_COSTS_OPTION_0);
+                1: string(STR_PARAM_ADJUST_COSTS_OPTION_1);
+                2: string(STR_PARAM_ADJUST_COSTS_OPTION_2);
+            };
+        }
+    }
 }
 
 if (!extended_feature_test("multi_part_ships")) {
@@ -25,7 +39,7 @@ if (!extended_feature_test("multi_part_ships")) {
 }
 
 basecost {
-    PR_RUNNING_SHIP: 2;
+    PR_RUNNING_SHIP: param_ship_running_costs;
     PR_BUILD_VEHICLE_SHIP: 2;
 }
 
