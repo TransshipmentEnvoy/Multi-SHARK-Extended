@@ -331,8 +331,12 @@ class PacketBoat(Ship):
     def __init__(self, id, **kwargs):
         super(PacketBoat, self).__init__(id, **kwargs)
         self.template = 'ship.pynml'
-        self.label_refits_allowed = ['BDMT','FRUT','LVST','VEHI','WATR']
+        self.label_refits_allowed = ['BDMT','FRUT','LVST','WATR']
         self.label_refits_disallowed = ['FISH'] # don't go fishing with packet boats, use a trawler instead :P
+        if kwargs.get('disallow_vehicles', False):
+            self.label_refits_disallowed.append('VEHI')
+        else:
+            self.label_refits_allowed.append('VEHI')
         self.capacity_cargo_holds = kwargs.get('capacity_cargo_holds', 0)
         self.capacity_freight = self.capacity_cargo_holds
         if self.capacity_pax > 0:
