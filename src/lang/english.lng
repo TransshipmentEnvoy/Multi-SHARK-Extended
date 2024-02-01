@@ -13,6 +13,7 @@ STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_1                           :Balanced
 STR_PARAM_ADJUST_SHIP_SPEEDS_OPTION_2                           :Speedy
 
 STR_PARAM_ADJUST_SHIP_RUNNING_COSTS                             :Ship running costs
+STR_PARAM_ADJUST_SHIP_PURCHASE_COSTS                            :Ship purchase costs
 
 STR_PARAM_ADJUST_COSTS_OPTION_0                                 :Cheap
 STR_PARAM_ADJUST_COSTS_OPTION_1                                 :Balanced
