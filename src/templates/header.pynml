@@ -29,6 +29,9 @@ grf {
     }
 }
 
+if (!extended_feature_test("multi_part_ships")) {
+    error(FATAL, string(STR_UNSUPPORTED_VERSION));
+}
 
 basecost {
     PR_RUNNING_SHIP: 2;
