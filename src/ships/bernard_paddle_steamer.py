@@ -1,12 +1,15 @@
 import global_constants
 from ship import PacketBoat
 
+# pax split
+
 ship = PacketBoat(id = 'bernard_paddle_steamer',
             numeric_id = 2020,
             title = 'Bernard [Paddle Steamer]',
             capacity_pax = 300,
             capacity_cargo_holds = 125,
             capacity_mail = 300,
+            disallow_vehicles = True,
             replacement_id = '-none',
             buy_cost = 32,
             fixed_run_cost_factor = 9.0,
