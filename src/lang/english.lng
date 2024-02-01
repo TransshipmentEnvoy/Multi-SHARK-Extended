@@ -42,6 +42,7 @@ STR_BUY_MENU_TEXT                                               :{}Type: {GOLD}{
 STR_BUY_MENU_REFIT_CAPACITIES_PACKET                            :{}{BLACK}Capacity when refitted: {GOLD}{COMMA} bags of mail or {COMMA}t of express freight
 STR_BUY_MENU_REFIT_CAPACITIES_TRAWLER                           :{}{BLACK}Capacity when refitted: {GOLD}{COMMA} passengers, {COMMA} bags of mail, {COMMA}t of fish in holds, or {COMMA}t of express freight as deck cargo
 STR_BUY_MENU_REFIT_CAPACITIES_UTILITY                           :{}{BLACK}Capacity when refitted: {GOLD}{COMMA} bags of mail or {COMMA}t of freight
+STR_BUY_MENU_REFIT_CAPACITIES_MAIL                              :{}{BLACK}Capacity when refitted: {GOLD}{COMMA} bags of mail
 
 
 STR_BARGE_TUG                                                   :Barge tug
@@ -92,6 +93,9 @@ STR_AFT_HOLD                                                    :Aft hold
 STR_FIRST_BARGE                                                 :First barge
 STR_SECOND_BARGE                                                :Second barge
 
+STR_MAIN_DECK                                                   :Main deck
+STR_AUXILIARY_DECK                                              :Auxiliary deck
+
 STR_TANK_1                                                      :Tank 1
 STR_TANK_2                                                      :Tank 2
 STR_TANK_3                                                      :Tank 3
@@ -109,3 +113,4 @@ STR_HOLD_DESCRIPTION_TANKS_3                                    : with 3 tanks
 STR_HOLD_DESCRIPTION_TANKS_4                                    : with 4 tanks
 STR_HOLD_DESCRIPTION_SECTIONS_4                                 : with 4 sections
 STR_HOLD_DESCRIPTION_FIRST_SECOND_BARGES_2                      : with 2 holds
+STR_HOLD_DESCRIPTION_MAIN_AUX_DECKS_2                           : with auxiliary deck

@@ -358,9 +358,22 @@ class Hydrofoil(PacketBoat):
     Fast vessel type for passengers and mail only, graphics vary by speed (to show hydrofoil in / out of water).
     """
     def __init__(self, id, **kwargs):
-        # beware - subclasses PacketBoat (more subclassing here than is ideal)
-        super(Hydrofoil, self).__init__(id, **kwargs)
+        super(PacketBoat, self).__init__(id, **kwargs)
         self.template = 'hydrofoil.pynml'
+        self.label_refits_allowed = []
+        self.label_refits_disallowed = []
+        self.capacity_cargo_holds = 0
+        self.class_refit_groups = ['pax_mail']
+        self.default_cargo = 'PASS'
+        self.default_cargo_capacity = self.capacity_pax
+
+    def get_buy_menu_string(self):
+        # set buy menu text, with various variations
+        buy_menu_template = Template(
+            "string(STR_BUY_MENU_TEXT, string(${str_type_info}), string(${str_hold_description}), string(STR_BUY_MENU_REFIT_CAPACITIES_MAIL,${capacity_mail}))"
+        )
+        return buy_menu_template.substitute(str_type_info=self.get_str_type_info(), str_hold_description=self.get_str_hold_description(), capacity_pax=self.capacity_pax,
+                                            capacity_mail=self.capacity_mail)
 
 
 class Trawler(Ship):
