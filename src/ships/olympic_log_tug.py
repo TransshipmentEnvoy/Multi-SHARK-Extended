@@ -4,7 +4,7 @@ from ship import LogTug
 ship = LogTug(id = 'olympic_log_tug',
             numeric_id = 250,
             title = 'Olympic [Log Tug]',
-            capacities_refittable = [80, 240, 400],
+            capacity_freight = 400,
             replacement_id = '-none',
             buy_cost = 4,
             fixed_run_cost_factor = 2.0,

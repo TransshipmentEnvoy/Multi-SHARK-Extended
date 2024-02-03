@@ -74,8 +74,6 @@ STR_TRAWLER                                                     :KoÄ‡arica (sa Å
 STR_VEHICLE_FERRY                                               :Trajekt
 
 
-STR_GENERIC_REFIT_SUBTYPE                                       : ({COMMA}{STRING})
-STR_GENERIC_REFIT_SUBTYPE_BUY_MENU_INFO                         :{}{BLACK}Kapaciteti prilagodbe: {GOLD}{COMMA}, {COMMA} ili {COMMA}{STRING}
 STR_QUANTITY_WOOD                                               :tona drva
 STR_QUANTITY_LIVESTOCK                                          :komada stoke
 STR_UNIT_TONNES                                                 :tona

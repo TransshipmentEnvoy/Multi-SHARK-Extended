@@ -208,10 +208,7 @@ class Ship(object):
         return template(ship=self)
 
     def render_cargo_capacity(self):
-        if hasattr(self, 'capacity_is_refittable_by_cargo_subtype'):
-            template = templates["capacity_refittable.pynml"]
-        else:
-            template = templates["capacity_not_refittable.pynml"]
+        template = templates["capacity_not_refittable.pynml"]
         return template(ship=self)
 
     def render(self):
@@ -225,19 +222,6 @@ class Ship(object):
         if self.extra_part_cargo_fraction:
             return (cargo_capacity - self.scale_extra_part_capacity(cargo_capacity)) // (self.extra_parts) # Divide non-final cargo evenly between non-final parts
         return cargo_capacity // (self.extra_parts + 1) # Divide cargo evenly between all parts
-
-
-class MixinRefittableCapacity(object):
-    def capacity_is_refittable_by_cargo_subtype(self):
-        return True
-
-    def get_buy_menu_string(self):
-        buy_menu_template = Template(
-            "string(STR_BUY_MENU_TEXT, string(${str_type_info}), string(${str_hold_description}), string(STR_GENERIC_REFIT_SUBTYPE_BUY_MENU_INFO,${capacity_0},${capacity_1},${capacity_2},string(${cargo_units})))"
-        )
-        return buy_menu_template.substitute(str_type_info=self.get_str_type_info(), str_hold_description=self.get_str_hold_description(), capacity_0=self.capacities_refittable[0],
-                                        capacity_1=self.capacities_refittable[1], capacity_2=self.capacities_refittable[2],
-                                        cargo_units=self.cargo_units_buy_menu)
 
 
 class ModelVariant(object):
@@ -290,7 +274,7 @@ class UtilityVessel(Ship):
                                             capacity_mail=self.capacity_mail, capacity_cargo_holds=self.capacity_cargo_holds)
 
 
-class LivestockCarrier(MixinRefittableCapacity, Ship):
+class LivestockCarrier(Ship):
     """
     Special type for livestock (as you might guess).
     """
@@ -300,18 +284,16 @@ class LivestockCarrier(MixinRefittableCapacity, Ship):
         self.class_refit_groups = ['empty']
         self.label_refits_allowed = ['LVST'] # set to livestock by default, don't need to make it refit
         self.label_refits_disallowed = []
-        self.capacities_refittable = kwargs.get('capacities_refittable', None)
-        self.capacity_freight = self.capacities_refittable[0]
         self.cargo_units_buy_menu = 'STR_QUANTITY_LIVESTOCK'
         self.cargo_units_refit_menu = 'STR_UNIT_ITEMS'
         self.default_cargo = 'LVST'
-        self.default_cargo_capacity = self.capacities_refittable[0]
+        self.default_cargo_capacity = self.capacity_freight
         self.cargo_age_period = 2 * global_constants.CARGO_AGE_PERIOD # improved decay rate
          # kludge to adjust canal speed of the one reefer ship.
         self.canal_speed = (0.65, 1)[self.inland_capable]
 
 
-class LogTug(MixinRefittableCapacity, Ship):
+class LogTug(Ship):
     """
     Specialist type for hauling logs only, has some specialist refit and speed behaviours.
     """
@@ -321,12 +303,10 @@ class LogTug(MixinRefittableCapacity, Ship):
         self.class_refit_groups = ['empty']
         self.label_refits_allowed = ['WOOD']
         self.label_refits_disallowed = []
-        self.capacities_refittable = kwargs.get('capacities_refittable', None)
-        self.capacity_freight = self.capacities_refittable[0]
         self.cargo_units_buy_menu = 'STR_QUANTITY_WOOD'
         self.cargo_units_refit_menu = 'STR_UNIT_TONNES'
         self.default_cargo = 'WOOD'
-        self.default_cargo_capacity = self.capacities_refittable[0]
+        self.default_cargo_capacity = self.capacity_freight
 
 
 class PacketBoat(Ship):
@@ -444,7 +424,7 @@ class EdiblesTanker(Ship):
         self.default_cargo_capacity = self.capacity_freight
 
 
-class Reefer(MixinRefittableCapacity, Ship):
+class Reefer(Ship):
     """
     Refits to limited range of refrigerated cargos, with 'improved' cargo decay rate.
     """
@@ -454,10 +434,8 @@ class Reefer(MixinRefittableCapacity, Ship):
         self.class_refit_groups = ['refrigerated_freight']
         self.label_refits_allowed = [] # no specific labels needed, refits all cargos that have refrigerated class
         self.label_refits_disallowed = []
-        self.capacities_refittable = kwargs.get('capacities_refittable', None)
-        self.capacity_freight = self.capacities_refittable[0]
         self.default_cargo = 'GOOD'
-        self.default_cargo_capacity = self.capacities_refittable[0]
+        self.default_cargo_capacity = self.capacity_freight
         self.cargo_units_buy_menu = 'STR_QUANTITY_FOOD'
         self.cargo_units_refit_menu = 'STR_UNIT_TONNES'
         self.cargo_age_period = 2 * global_constants.CARGO_AGE_PERIOD # improved decay rate

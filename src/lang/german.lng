@@ -73,8 +73,6 @@ STR_TRAWLER                                                     :Trawler (spezie
 STR_VEHICLE_FERRY                                               :Fahrzeugfähre
 
 
-STR_GENERIC_REFIT_SUBTYPE                                       :({COMMA}{STRING})
-STR_GENERIC_REFIT_SUBTYPE_BUY_MENU_INFO                         :{}{BLACK}Umgerüstete Kapazität: {GOLD}{COMMA}, {COMMA} oder {COMMA}{STRING}
 STR_QUANTITY_WOOD                                               :{G=p}Tonnen Holz
 STR_QUANTITY_LIVESTOCK                                          :Stück Vieh
 STR_UNIT_TONNES                                                 :{G=p}Tonnen

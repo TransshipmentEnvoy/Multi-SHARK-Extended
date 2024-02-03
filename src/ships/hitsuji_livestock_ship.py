@@ -4,7 +4,7 @@ from ship import LivestockCarrier
 ship = LivestockCarrier(id = 'hitsuji_livestock_ship',
             numeric_id = 1231,
             title = 'Hitsuji [Livestock Ship]',
-            capacities_refittable = [350, 700, 1400],
+            capacity_freight = 1400,
             replacement_id = '-none',
             buy_cost = 63,
             fixed_run_cost_factor = 10.0,

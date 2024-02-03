@@ -73,8 +73,6 @@ STR_TRAWLER                                                     :Halászhajó (e
 STR_VEHICLE_FERRY                                               :Autós komp
 
 
-STR_GENERIC_REFIT_SUBTYPE                                       :({COMMA}{STRING})
-STR_GENERIC_REFIT_SUBTYPE_BUY_MENU_INFO                         :{}{BLACK}Átalakítható rakományokra: {GOLD}{COMMA}, {COMMA} vagy {COMMA}{STRING}
 STR_QUANTITY_WOOD                                               :tonna fa
 STR_QUANTITY_LIVESTOCK                                          :darab élőállat
 STR_UNIT_TONNES                                                 :tonna

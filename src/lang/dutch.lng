@@ -72,8 +72,6 @@ STR_TRAWLER                                                     :Trawler (met ee
 STR_VEHICLE_FERRY                                               :Autoveerboot
 
 
-STR_GENERIC_REFIT_SUBTYPE                                       : ({COMMA}{STRING})
-STR_GENERIC_REFIT_SUBTYPE_BUY_MENU_INFO                         :{}{BLACK}Capaciteiten na ombouwen: {GOLD}{COMMA}, {COMMA} of {COMMA}{STRING}
 STR_QUANTITY_WOOD                                               :ton hout
 STR_QUANTITY_LIVESTOCK                                          :items vee
 STR_UNIT_TONNES                                                 :tonnen

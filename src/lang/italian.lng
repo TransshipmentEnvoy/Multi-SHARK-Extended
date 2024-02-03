@@ -74,8 +74,6 @@ STR_TRAWLER                                                     :Peschereccio da
 STR_VEHICLE_FERRY                                               :Traghetto
 
 
-STR_GENERIC_REFIT_SUBTYPE                                       : ({COMMA}{STRING})
-STR_GENERIC_REFIT_SUBTYPE_BUY_MENU_INFO                         :{}{BLACK}Capacità di riadattamento: {GOLD}{COMMA}, {COMMA} o {COMMA}{STRING}
 STR_QUANTITY_WOOD                                               :tonnellate di legname
 STR_QUANTITY_LIVESTOCK                                          :capi di bestiame
 STR_UNIT_TONNES                                                 :tonnellate

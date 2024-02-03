@@ -48,7 +48,7 @@ repo_vars = utils.get_repo_vars(sys)
 base_lang_strings = utils.parse_base_lang()
 
 import fish
-from ship import Trawler, MixinRefittableCapacity
+from ship import Trawler
 
 ships = fish.get_ships_in_buy_menu_order()
 # default sort for docs is by ship intro date
@@ -103,8 +103,6 @@ class DocHelper(object):
             result = self.fetch_prop(result, 'Capacity Freight', ship.capacity_freight)
             if isinstance(ship, Trawler):
                 result = self.fetch_prop(result, 'Capacity Fish Holds', ship.capacity_fish_holds)
-            if isinstance(ship, MixinRefittableCapacity):
-                result = self.fetch_prop(result, 'Capacities Refittable', ', '.join(str(i) for i in ship.capacities_refittable))
             result = self.fetch_prop(result, 'Gross Tonnage', ship.gross_tonnage)
             result = self.fetch_prop(result, 'Buy Cost', ship.buy_cost)
             result = self.fetch_prop(result, 'Running Cost', ship.running_cost)

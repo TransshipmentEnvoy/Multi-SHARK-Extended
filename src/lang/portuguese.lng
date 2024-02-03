@@ -54,7 +54,5 @@ STR_TRAWLER                                                     :Traineira (por√
 STR_VEHICLE_FERRY                                               :Ferry de ve√≠culos
 
 
-STR_GENERIC_REFIT_SUBTYPE                                       : ({COMMA}{STRING})
-STR_GENERIC_REFIT_SUBTYPE_BUY_MENU_INFO                         :{}{BLACK}Capacidades readaptadas: {GOLD}{COMMA}, {COMMA} ou {COMMA}{STRING}
 STR_QUANTITY_WOOD                                               :toneladas de madeira
 STR_UNIT_TONNES                                                 :toneladas

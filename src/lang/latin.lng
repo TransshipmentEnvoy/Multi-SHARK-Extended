@@ -59,8 +59,6 @@ STR_SMALL_GENERAL_PURPOSE_VESSEL                                :Parvum navigium
 STR_VEHICLE_FERRY                                               :Navis vehicularia
 
 
-STR_GENERIC_REFIT_SUBTYPE                                       : ({COMMA}{STRING})
-STR_GENERIC_REFIT_SUBTYPE_BUY_MENU_INFO                         :{}{BLACK}Capacitates refectabiles: {GOLD}{COMMA}, {COMMA} vel {COMMA}{STRING}
 STR_QUANTITY_WOOD                                               :tonnae ligni
 STR_QUANTITY_LIVESTOCK                                          :pecora
 STR_UNIT_TONNES                                                 :tonnae

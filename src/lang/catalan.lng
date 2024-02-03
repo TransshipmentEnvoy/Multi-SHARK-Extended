@@ -73,8 +73,6 @@ STR_TRAWLER                                                     :Traïnya (cober
 STR_VEHICLE_FERRY                                               :Ferri per Vehicles
 
 
-STR_GENERIC_REFIT_SUBTYPE                                       : ({COMMA}{STRING})
-STR_GENERIC_REFIT_SUBTYPE_BUY_MENU_INFO                         :{}{BLACK}Remodelable a: {GOLD}{COMMA}, {COMMA} o {COMMA}{STRING}
 STR_QUANTITY_WOOD                                               :tones de fusta
 STR_QUANTITY_LIVESTOCK                                          :caps de bestiar
 STR_UNIT_TONNES                                                 :tones

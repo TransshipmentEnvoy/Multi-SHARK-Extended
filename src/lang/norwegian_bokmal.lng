@@ -74,8 +74,6 @@ STR_TRAWLER                                                     :Tråler (med de
 STR_VEHICLE_FERRY                                               :Bilferje
 
 
-STR_GENERIC_REFIT_SUBTYPE                                       :({COMMA}{STRING})
-STR_GENERIC_REFIT_SUBTYPE_BUY_MENU_INFO                         :{}{BLACK}Kapasitet ved ombygning: {GOLD}{COMMA}, {COMMA} eller {COMMA}{STRING}
 STR_QUANTITY_WOOD                                               :tonn tømmer
 STR_QUANTITY_LIVESTOCK                                          :buskap
 STR_UNIT_TONNES                                                 :tonn

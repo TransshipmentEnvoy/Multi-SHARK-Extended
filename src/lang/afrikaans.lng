@@ -73,8 +73,6 @@ STR_TRAWLER                                                     :Treiler (bedoel
 STR_VEHICLE_FERRY                                               :Voertuig veerboot
 
 
-STR_GENERIC_REFIT_SUBTYPE                                       : ({COMMA}{STRING})
-STR_GENERIC_REFIT_SUBTYPE_BUY_MENU_INFO                         :{}{BLACK}herboubare hoeveelheid: {GOLD}{COMMA}, {COMMA} of {COMMA}{STRING}
 STR_QUANTITY_WOOD                                               :ton hout
 STR_QUANTITY_LIVESTOCK                                          :items lewendehawe
 STR_UNIT_TONNES                                                 :Ton

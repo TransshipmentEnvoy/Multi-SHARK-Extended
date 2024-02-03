@@ -73,8 +73,6 @@ STR_TRAWLER                                                     :저인망 어�
 STR_VEHICLE_FERRY                                               :차량 연락선
 
 
-STR_GENERIC_REFIT_SUBTYPE                                       :{COMMA}{STRING}
-STR_GENERIC_REFIT_SUBTYPE_BUY_MENU_INFO                         :{}{BLACK}확장 가능 수용량: {GOLD}{COMMA}, {COMMA} 또는 {COMMA}{STRING}
 STR_QUANTITY_WOOD                                               :톤의 나무
 STR_QUANTITY_LIVESTOCK                                          :가축의 수량
 STR_UNIT_TONNES                                                 :톤

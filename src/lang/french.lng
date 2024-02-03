@@ -73,8 +73,6 @@ STR_TRAWLER                                                     :Chalutier (cale
 STR_VEHICLE_FERRY                                               :Ferry pour véhicules
 
 
-STR_GENERIC_REFIT_SUBTYPE                                       : ({COMMA}{STRING})
-STR_GENERIC_REFIT_SUBTYPE_BUY_MENU_INFO                         :{}{BLACK}Capacités de réaménagement : {GOLD}{COMMA}, {COMMA} ou {COMMA}{STRING}
 STR_QUANTITY_WOOD                                               : tonnes de bois
 STR_QUANTITY_LIVESTOCK                                          : têtes de bétail
 STR_UNIT_TONNES                                                 : tonnes

@@ -4,7 +4,7 @@ from ship import Reefer
 ship = Reefer(id = 'helsinki_reefer',
             numeric_id = 1221,
             title = 'Helsinki [Reefer]',
-            capacities_refittable = [300, 600, 1200],
+            capacity_freight = 1200,
             replacement_id = '-none',
             buy_cost = 90,
             fixed_run_cost_factor = 7.0,

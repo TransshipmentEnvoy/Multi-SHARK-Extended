@@ -72,8 +72,6 @@ STR_TRAWLER                                                     :Troolari (kalal
 STR_VEHICLE_FERRY                                               :Ajoneuvolautta
 
 
-STR_GENERIC_REFIT_SUBTYPE                                       : ({COMMA}{STRING})
-STR_GENERIC_REFIT_SUBTYPE_BUY_MENU_INFO                         :{}{BLACK}Sovitettavat kapasiteetit: {GOLD}{COMMA}, {COMMA} tai {COMMA}{STRING}
 STR_QUANTITY_WOOD                                               :tonnia puuta
 STR_QUANTITY_LIVESTOCK                                          :erää karjaa
 STR_UNIT_TONNES                                                 :tonnia
