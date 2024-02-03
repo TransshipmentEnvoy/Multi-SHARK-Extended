@@ -2,11 +2,13 @@ import global_constants
 from ship import PacketBoat
 
 ship = PacketBoat(id = 'island_trader',
-            numeric_id = 1031,
+            numeric_id = 1028,
             title = 'Island Trader [Blank]',
             capacity_pax = 360,
             capacity_cargo_holds = 240,
             capacity_mail = 720,
+            extra_parts = 2,
+            refit_part_name = 'decks',
             replacement_id = '-none',
             buy_cost = 39,
             fixed_run_cost_factor = 12.0,
