@@ -2,9 +2,6 @@
 ##plural 6
 ##gender m f n p
 ##case abl acc dat f gen m n nom p pre
-STR_GRF_DESCRIPTION                                             :Лицензия: {SILVER}GPL v2{}{BLACK}
-
-
 STR_EMPTY                                                       :
 
 

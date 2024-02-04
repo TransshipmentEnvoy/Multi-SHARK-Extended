@@ -2,9 +2,6 @@
 ##plural 0
 ##gender m f n mp fp np
 ##case abl acc dat gen
-STR_GRF_DESCRIPTION                                             :Licentia: {SILVER}GPL v2{}{BLACK}
-
-
 STR_EMPTY                                                       :
 
 
