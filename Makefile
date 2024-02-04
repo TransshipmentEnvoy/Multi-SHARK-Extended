@@ -107,7 +107,7 @@ AWK            ?= awk
 
 GREP           ?= grep
 
-HG             ?= $(shell hg st >/dev/null 2>/dev/null && which hg 2>/dev/null)
+GIT            ?= git
 
 UNIX2DOS       ?= $(shell which unix2dos 2>/dev/null)
 UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version 2>/dev/null && echo "-q" || echo "")
@@ -119,6 +119,8 @@ UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version 2>/dev/
 # a nightly build:                 GRF's Name nightly-r51
 # a release build (taged version): GRF's Name 0.1
 ################################################################
+
+REPO_REVISION  ?= $(shell $(GIT) describe --always --tags --abbrev=7 --dirty=-m || echo "unknown" )
 
 # The title consists of name and version
 REPO_TITLE     ?= $(REPO_NAME) $(REPO_REVISION)
@@ -147,7 +149,7 @@ pnml:
 
 nml: $(GENERATE_PNML)
 	$(_E) "[CPP] $(NML_FILE)"
-	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) -o $(NML_FILE) $(MAIN_SRC_FILE)
+	$(_V) $(CC) $(CC_FLAGS) -o $(NML_FILE) $(MAIN_SRC_FILE)
 
 clean::
 	$(_E) "[CLEAN NML]"
