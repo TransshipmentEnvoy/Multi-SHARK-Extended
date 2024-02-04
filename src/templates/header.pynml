@@ -2,6 +2,7 @@ grf {
     grfid: "JGR\83";
     name: string(STR_GRF_NAME);
     desc: string(STR_GRF_DESCRIPTION);
+    url: string(STR_GRF_URL);
     version: ${repo_vars.repo_version};
     min_compatible_version: 1;
     param 0 {
