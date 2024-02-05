@@ -23,7 +23,7 @@ ship = GeneralCargoVessel(id = 'marquette_freight_barge',
             str_type_info = 'CARGO_VESSEL_INLAND',
             effects = ['EFFECT_SPRITE_STEAM, -7, 0, 16'],
             vehicle_life = 55,
-            gross_tonnage = 55)
+            gross_tonnage = 350)
 
 ship.add_model_variant(intro_date=0,
                        end_date=global_constants.max_game_date,

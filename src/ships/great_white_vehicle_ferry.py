@@ -12,7 +12,7 @@ ship = PacketBoat(id = 'great_white_vehicle_ferry',
             refit_part_name = 'decks',
             replacement_id = '-none',
             buy_cost = 105,
-            fixed_run_cost_factor = 20.0,
+            fixed_run_cost_factor = 15.0,
             fuel_run_cost_factor = 1.0,
             speed = 30.0,
             speed_factor_unladen = 1.0,
@@ -25,7 +25,7 @@ ship = PacketBoat(id = 'great_white_vehicle_ferry',
             buy_menu_bb_xy = [620, 28],
             str_type_info = 'VEHICLE_FERRY',
             vehicle_life = 40,
-            gross_tonnage = 60)
+            gross_tonnage = 1300)
 
 ship.add_model_variant(intro_date=0,
                        end_date=global_constants.max_game_date,

@@ -7,7 +7,7 @@ ship = GeneralCargoVessel(id = 'saint_marie_freight_barge',
             capacity_cargo_holds = 200,
             replacement_id = '-none',
             buy_cost = 15,
-            fixed_run_cost_factor = 7.0,
+            fixed_run_cost_factor = 4.0,
             fuel_run_cost_factor = 1.0,
             speed = 14.0,
             speed_factor_unladen = 1.1,
@@ -21,7 +21,7 @@ ship = GeneralCargoVessel(id = 'saint_marie_freight_barge',
             str_type_info = 'CARGO_VESSEL_INLAND',
             effects = ['EFFECT_SPRITE_STEAM, -7, 0, 16'],
             vehicle_life = 55,
-            gross_tonnage = 45)
+            gross_tonnage = 200)
 
 ship.add_model_variant(intro_date=0,
                        end_date=global_constants.max_game_date,
