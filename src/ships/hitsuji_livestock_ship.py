@@ -21,7 +21,7 @@ ship = LivestockCarrier(id = 'hitsuji_livestock_ship',
             str_type_info = 'LIVESTOCK_SHIP',
             effects = ['EFFECT_SPRITE_DIESEL, 16, 2, 23', 'EFFECT_SPRITE_DIESEL, 16, -2, 23'],
             vehicle_life = 35,
-            gross_tonnage = 650)
+            gross_tonnage = 850)
 
 ship.add_model_variant(intro_date=0,
                        end_date=global_constants.max_game_date,
