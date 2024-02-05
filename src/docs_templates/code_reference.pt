@@ -44,7 +44,7 @@
             <tbody>
                 <tal:vehicles repeat="vehicle sorted(ships, key=doc_helper.get_base_numeric_id)">
                     <tr>
-                        <td>${vehicle.numeric_id}</td>
+                        <td>${vehicle.numeric_id}<tal:extra_part_cargo_fraction condition="vehicle.extra_part_cargo_fraction"> +1</tal:extra_part_cargo_fraction></td>
                         <td>${vehicle.id}</td>
                         <td>${vehicle.title}</td>
                     </tr>
