@@ -118,7 +118,8 @@ class Ship(object):
     def running_cost(self):
         # calculate a running cost
         fixed_run_cost = self.fixed_run_cost_factor * global_constants.FIXED_RUN_COST
-        fuel_run_cost =  self.fuel_run_cost_factor * self.gross_tonnage * global_constants.FUEL_RUN_COST
+        effective_tonnage = pow(self.gross_tonnage / global_constants.FUEL_RUN_COST_BASE_TONNAGE, global_constants.FUEL_RUN_COST_TONNAGE_POW) * global_constants.FUEL_RUN_COST_BASE_TONNAGE
+        fuel_run_cost =  self.fuel_run_cost_factor * effective_tonnage * global_constants.FUEL_RUN_COST
         calculated_run_cost = int((fixed_run_cost + fuel_run_cost) / 98) # divide by magic constant to get costs as factor in 0-255 range
         return min(calculated_run_cost, 255) # cost factor is a byte, can't exceed 255
 

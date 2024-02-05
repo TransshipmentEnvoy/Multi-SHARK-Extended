@@ -84,7 +84,9 @@ graphics_path = generated_files_dir + '/graphics/'
 
 # cost constants
 FIXED_RUN_COST = 500.0
-FUEL_RUN_COST = 10.0
+FUEL_RUN_COST_BASE_TONNAGE = 100.0
+FUEL_RUN_COST_TONNAGE_POW = 0.7
+FUEL_RUN_COST = 12.0
 
 # cargo aging constant - OTTD default is 185
 CARGO_AGE_PERIOD = 740
