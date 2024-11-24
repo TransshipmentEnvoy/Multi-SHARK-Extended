@@ -1,12 +1,12 @@
 // -- capacity determined according to specific labels that might need to be handled, and otherwise cargo class -- //
 switch (FEAT_SHIPS, SELF, ${ship.id}_switch_cargo_capacity_classes, cargo_classes) {
     bitmask(CC_PASSENGERS): return ${ship.scale_capacity(ship.capacity_pax)};
-    bitmask(CC_MAIL): return ${ship.scale_capacity(ship.capacity_mail)};
-    return ${ship.scale_capacity(ship.capacity_freight)};
+    bitmask(CC_MAIL): return ${ship.scale_capacity(ship.capacity_mail)} * param_ship_capacity_multiplier;
+    return ${ship.scale_capacity(ship.capacity_freight)} * param_ship_capacity_multiplier;
 }
 switch (FEAT_SHIPS, SELF, ${ship.id}_switch_cargo_capacity, cargo_type_in_veh) {
-    <tal:trawlers condition="ship.str_type_info.lower()=='trawler'">FISH: return ${ship.scale_capacity(ship.capacity_fish_holds)};</tal:trawlers>
-    ${ship.id}_switch_cargo_capacity_classes;
+    <tal:trawlers condition="ship.str_type_info.lower()=='trawler'">FISH: return max(${ship.scale_capacity(ship.capacity_fish_holds)} * param_ship_capacity_multiplier, 255);</tal:trawlers>
+    return ${ship.id}_switch_cargo_capacity_classes();
 }
 
 // -- handle subtype strings, used to aid players understand auto-refitting -- //

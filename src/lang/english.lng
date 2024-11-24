@@ -20,6 +20,10 @@ STR_PARAM_ADJUST_COSTS_OPTION_0                                 :Cheap
 STR_PARAM_ADJUST_COSTS_OPTION_1                                 :Balanced
 STR_PARAM_ADJUST_COSTS_OPTION_2                                 :Expensive
 
+STR_PARAM_SHIP_CAPACITY_MULTIPLIER                              :Ship Mail / Freight Capacity Multiplier
+STR_PARAM_SHIP_RUNNING_COST_MODIFIER                            :Ship Running Cost Modifier
+STR_PARAM_SHIP_PURCHASE_COST_MODIFIER                           :Ship Purchase Cost Modifier
+
 STR_NAME_SUFFIX_BLANK                                           :
 STR_NAME_SUFFIX_BARGE_TUG                                       :Barge Tug
 STR_NAME_SUFFIX_CATAMARAN                                       :Catamaran

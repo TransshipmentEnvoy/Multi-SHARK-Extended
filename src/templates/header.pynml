@@ -47,6 +47,33 @@ grf {
             };
         }
     }
+    param 3 {
+        param_ship_capacity_multiplier {
+            type:    int;
+            name:    string(STR_PARAM_SHIP_CAPACITY_MULTIPLIER);
+            min_value: 1;
+            max_value: 20;
+            def_value: 1;
+        }
+    }
+    param 4 {
+        param_ship_running_cost_modifier {
+            type:    int;
+            name:    string(STR_PARAM_SHIP_RUNNING_COST_MODIFIER);
+            min_value: 0;
+            max_value: 100;
+            def_value: 0;
+        }
+    }
+    param 5 {
+        param_ship_purchase_cost_modifier {
+            type:    int;
+            name:    string(STR_PARAM_SHIP_PURCHASE_COST_MODIFIER);
+            min_value: 0;
+            max_value: 100;
+            def_value: 0;
+        }
+    }
 }
 
 if (!extended_feature_test("multi_part_ships")) {

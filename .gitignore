@@ -8,3 +8,5 @@ multi-shark.nml
 docs/
 multi-shark/
 /.venv
+multi-shark-custom.nml
+multi-shark-custom/
