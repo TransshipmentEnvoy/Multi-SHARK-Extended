@@ -1,5 +1,5 @@
 grf {
-    grfid: "JGR\83";
+    grfid: "JG\83\58";
     name: string(STR_GRF_NAME);
     desc: string(STR_GRF_DESCRIPTION);
     url: string(STR_GRF_URL);
